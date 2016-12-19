@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!--Placeholder for company name  -->
+    <title>Frankies Insurance - Registration</title>
+
+    <!--Stylesheet & Fonts  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bevan|Julius+Sans+One|Pacifico|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/login.css">
+
+
+</head>
+
+<body>
+
+    <body>
+        <div class="login">
+            <div class="login-screen">
+                <div class="app-title">
+                    <h1>Frankie's Insurance</h1>
+                    <h2>Sign Up</h2>
+                </div>
+
+                <form  class="login-form" method="post" action="/creativewriter/newuser">
+                    <div class="control-group">
+                        <input type="text" class="login-field" value="" placeholder="first & last name" id="login-name" name='name' required>
+                        <label class="login-field-icon fui-user" for="login-name"></label>
+                    </div>
+
+                    <div class="control-group">
+
+                        <input type="email" class="login-field" value="" placeholder="email" id="login-email" name='email' required>
+                        <label class="login-field-icon fui-lock" for="login-email" ></label>
+
+                    </div>
+
+                    <div class="control-group">
+                        <input type="password" class="login-field" value="" placeholder="password" id="login-pass" name='password' required>
+                        <label class="login-field-icon fui-lock" for="login-pass" ></label>
+                    </div>
+                        <label class="radio-inline" id="teacherRadio">
+                          <input type="radio" name="who" required>Teacher
+                        </label>
+                        <label class="radio-inline" id="studentRadio">
+                          <input type="radio" name="who" required>Student
+                        </label>
+                    <br>
+                    <br>
+
+
+                    <button class="btn btn-primary btn-large btn-block" href="#" type='submit'>Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </body>
+
+
+
+
+</body>
+
+</html>
